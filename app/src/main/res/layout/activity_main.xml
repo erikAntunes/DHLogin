@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="1080px"
+    android:layout_height="1920px"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <ImageView
+        android:layout_width="500px"
+        android:layout_height="500px"
+        android:layout_gravity="center"
+        android:layout_marginTop="60px"
+        android:background="@drawable/logo"/>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:hint="E-mail"
+        android:layout_gravity="center">
+
+        <android.inputmethodservice.ExtractEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="900px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:hint="Senha">
+
+        <android.inputmethodservice.ExtractEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="870px"
+        android:layout_height="100px"
+        android:layout_marginTop="20px"
+        android:layout_gravity="center"
+        android:hint="Login"
+        android:background="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="100px"
+        android:layout_marginTop="110px">
+
+        <View
+            android:layout_width="405px"
+            android:layout_height="10px"
+            android:background="@color/colorAccent"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:hint="OR"
+            android:textColorHint="@color/colorAccent"
+            android:layout_gravity="center"/>
+
+
+        <View
+            android:layout_width="435px"
+            android:layout_height="10px"
+            android:layout_gravity="center"
+            android:background="@color/colorAccent"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="870px"
+        android:layout_height="100px"
+        android:layout_marginTop="120px"
+        android:layout_gravity="center"
+        android:hint="Facebook With Facebook"
+        android:background="@color/azul"
+        android:textColorHint="@color/colorPrimaryDark"
+        android:drawableLeft="@drawable/ic_facebook"
+        android:paddingLeft="20px"/>
+
+    <Button
+        android:layout_width="870px"
+        android:layout_height="100px"
+        android:layout_gravity="center"
+        android:layout_marginTop="15px"
+        android:hint="Register Now"
+        android:background="@color/colorAccent"
+        android:textColorHint="@color/colorPrimaryDark"/>
+
+
+
+</LinearLayout>
